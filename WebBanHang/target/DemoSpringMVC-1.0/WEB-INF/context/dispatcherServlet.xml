@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.webbanhang.Controller, com.webbanhang.api" />
+
+    <mvc:annotation-driven />
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+    
+    <mvc:resources mapping="/template/**" location="/template/" />
+    
+    <!-- Cấu hình MultipartResolver -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="5242880" />
+        <property name="maxUploadSizePerFile" value="1048576" />
+        <property name="maxInMemorySize" value="4096" />
+        <property name="uploadTempDir" value="/tmp/uploads" />
+    </bean>
+
+    <!-- Cấu hình Cloudinary -->
+    <bean id="cloudinary" class="com.cloudinary.Cloudinary">
+        <constructor-arg>
+            <map>
+                <entry key="cloud_name" value="doptt54ic" />
+                <entry key="api_key" value="239328232492641" />
+                <entry key="api_secret" value="K9htyUU-2TFnZv160AsaPTHctKc" />
+            </map>
+        </constructor-arg>
+    </bean>
+</beans>

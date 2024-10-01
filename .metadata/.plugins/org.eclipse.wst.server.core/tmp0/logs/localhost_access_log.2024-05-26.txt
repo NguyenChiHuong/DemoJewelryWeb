@@ -1,0 +1,13 @@
+127.0.0.1 - - [26/May/2024:10:38:00 +0700] "GET / HTTP/1.1" 200 50152
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:38:01 +0700] "GET / HTTP/1.1" 200 50152
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:38:01 +0700] "GET /template/user/assets/img/shopping-cart-template.jpg HTTP/1.1" 404 604
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:38:01 +0700] "GET /template/user/assets/img/ HTTP/1.1" 404 604
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:38:01 +0700] "GET /template/user/assets/img/shopping-cart-template.jpg HTTP/1.1" 404 604
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:38:04 +0700] "GET /dang-nhap HTTP/1.1" 200 7995
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:39:02 +0700] "POST /j_spring_security_check HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:39:02 +0700] "GET /quan-tri/trang-chu HTTP/1.1" 200 7500
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:39:05 +0700] "GET /quan-tri/san-pham/danh-sach?page=1&limit=2 HTTP/1.1" 200 16183
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:39:09 +0700] "GET /quan-tri/san-pham/chinh-sua HTTP/1.1" 200 13253
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:47:03 +0700] "GET /quan-tri/san-pham/chinh-sua HTTP/1.1" 200 13244
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:49:02 +0700] "POST /api/new HTTP/1.1" 200 445
+0:0:0:0:0:0:0:1 - - [26/May/2024:10:49:04 +0700] "GET /quan-tri/san-pham/chinh-sua?id=77&message=insert_success HTTP/1.1" 200 13495

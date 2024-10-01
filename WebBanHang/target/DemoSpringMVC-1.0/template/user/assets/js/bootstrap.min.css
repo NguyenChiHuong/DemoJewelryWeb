@@ -1,0 +1,56 @@
+.pagination-container {
+    display: flex;
+    border-radius: 20px; /* bo góc */
+    overflow: hidden; /* ẩn phần nội dung ra ngoài khỏi phần bo góc */
+}
+
+.pagination {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page-item {
+    margin: 0;
+}
+
+.page-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    min-width: 30px; /* chiều rộng cố định */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+}
+
+.page-item.first.disabled .page-link,
+.page-item.prev.disabled .page-link,
+.page-item.next.disabled .page-link,
+.page-item.last.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+}
+
+.page-item.active .page-link:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.page-link:hover {
+    background-color: #e9ecef;
+}

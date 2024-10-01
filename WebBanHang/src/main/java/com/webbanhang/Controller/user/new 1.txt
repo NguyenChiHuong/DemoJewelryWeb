@@ -1,0 +1,3 @@
+INSERT INTO `lv2`.`employee` (`id`, `code`, `name`, `email`, `phone`, `age`) VALUES ('1', 'mot', 'Nguyễn Văn A', 'NguyenVanA@gmail.com', '12345678', '22');
+INSERT INTO `lv2`.`employee` (`id`, `code`, `name`, `email`, `phone`, `age`) VALUES ('2', 'hai', 'Nguyễn Văn B', 'NguyenVanB@gmail.com', '2345675', '23');
+INSERT INTO `lv2`.`employee` (`id`, `code`, `name`, `email`, `phone`, `age`) VALUES ('3', 'ba', 'Nguyễn Văn C', 'NguyenVanC@gmail.com', '234563275', '25');

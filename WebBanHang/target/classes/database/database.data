@@ -1,0 +1,220 @@
+Use shopping;
+
+INSERT INTO `shopping`.`slides` (`id`, `caption`, `content`, `img`) VALUES ('1', 'Hình 1', 'Very easy to integrate and expand', 'carousel3.png');
+INSERT INTO `shopping`.`slides` (`id`, `caption`, `content`, `img`) VALUES ('2', 'Hình 2', 'Very clean simple to use', 'carousel1.png');
+INSERT INTO `shopping`.`slides` (`id`, `caption`, `content`, `img`) VALUES ('3', 'Hình 3', 'Highly Google seo friendly', 'bootstrap_free-ecommerce.png');
+INSERT INTO `shopping`.`slides` (`id`, `caption`, `content`, `img`) VALUES ('4', 'Hình 4', 'Compitable to many more opensource cart', 'bootstrap-templates.png');
+
+INSERT INTO `category` (`id`, `name`, `description`) VALUES
+(1, 'Đồng hồ', NULL),
+(2, 'Vòng tay', NULL),
+(3, 'Dây đeo tay', NULL),
+(4, 'Dây chuyền', NULL);
+
+INSERT INTO `product` (`id`, `category_id`, `size`, `name`, `price`, `sale`, `title`, `highlight`, `new_product`, `detail`, `createddate`, `modifieddate`) VALUES
+(1, 1, 'L,M,S', 'Manicure & Pedicure', '20000', 0, 'Nowadays the lingerie industry is one of the most successful business spheres.',1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:47:31'),
+(2, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(3, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(4, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(5, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(6, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(7, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(8, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(9, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(10, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(11, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(12, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(13, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(14, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(15, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(16, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(17, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(18, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(19, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(20, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(21, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(22, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(23, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(24, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(25, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(26, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(27, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(28, 1, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43');
+
+INSERT INTO `product` (`id`, `category_id`, `size`, `name`, `price`, `sale`, `title`, `highlight`, `new_product`, `detail`, `createddate`, `modifieddate`) VALUES
+(29, 2, 'L,M,S', 'Manicure & Pedicure', '20000', 0, 'Nowadays the lingerie industry is one of the most successful business spheres.',1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:47:31'),
+(30, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(31, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(32, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(33, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(34, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(35, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(36, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(37, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(38, 2, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43');
+
+INSERT INTO `product` (`id`, `category_id`, `size`, `name`, `price`, `sale`, `title`, `highlight`, `new_product`, `detail`, `createddate`, `modifieddate`) VALUES
+(39, 3, 'L,M,S', 'Manicure & Pedicure', '20000', 0, 'Nowadays the lingerie industry is one of the most successful business spheres.',1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:47:31'),
+(40, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(41, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(42, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(43, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(44, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(45, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(46, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(47, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(48, 3, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(49, 4, 'L,M,S', 'Manicure & Pedicure', '20000', 0, 'Nowadays the lingerie industry is one of the most successful business spheres.',1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:47:31'),
+(50, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43');
+
+INSERT INTO `product` (`id`, `category_id`, `size`, `name`, `price`, `sale`, `title`, `highlight`, `new_product`, `detail`, `createddate`, `modifieddate`) VALUES
+(51, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(52, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(53, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(54, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(55, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(56, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(57, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(58, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(59, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43'),
+(60, 4, 'L,S,M', 'Name', '200000', 0, 'tital', 1, 0, 'details', '2020-04-09 11:38:43', '2020-04-09 11:38:43');
+
+
+
+
+insert INTO `color` (`id`, `product_id`, `name`, `code`, `img`) VALUES
+(1, 1, 'Vàng', '#FFFF00', 'a.jpg'),
+(2, 1, 'Xanh', '#FFFF00', 'b.jpg'),
+(3, 2, 'Vàng', '#FFFF00', 'c.jpg'),
+(4, 2, 'Xanh', '#FFFF00', 'd.jpg'),
+(5, 5, 'Vàng', '#FFFF00', 'e.jpg'),
+(6, 6, 'Vàng', '#FFFF00', 'g.jpg'),
+(7, 7, 'Vàng', '#FFFF00', 'h.jpg'),
+(8, 8, 'Vàng', '#FFFF00', 'i.jpg'),
+(9, 9, 'Vàng', '#FFFF00', 'b.jpg'),
+(10, 10, 'Vàng', '#FFFF00', 'b.jpg'),
+(11, 11, 'Vàng', '#FFFF00', 'b.jpg'),
+(12, 12, 'Vàng', '#FFFF00', 'b.jpg'),
+(13, 13, 'Vàng', '#FFFF00', 'b.jpg'),
+(14, 14, 'Vàng', '#FFFF00', 'b.jpg'),
+(15, 15, 'Vàng', '#FFFF00', 'b.jpg'),
+(16, 16, 'Vàng', '#FFFF00', 'b.jpg'),
+(17, 17, 'Vàng', '#FFFF00', 'b.jpg'),
+(18, 18, 'Vàng', '#FFFF00', 'b.jpg'),
+(19, 19, 'Vàng', '#FFFF00', 'b.jpg'),
+(20, 20, 'Vàng', '#FFFF00', 'b.jpg'),
+(21, 21, 'Vàng', '#FFFF00', 'b.jpg'),
+(22, 22, 'Vàng', '#FFFF00', 'b.jpg'),
+(23, 23, 'Vàng', '#FFFF00', 'b.jpg'),
+(24, 24, 'Vàng', '#FFFF00', 'b.jpg'),
+(25, 25, 'Vàng', '#FFFF00', 'b.jpg'),
+(26, 26, 'Vàng', '#FFFF00', 'j.jpg'),
+(27, 27, 'Vàng', '#FFFF00', 'e.jpg'),
+(28, 28, 'Vàng', '#FFFF00', 'g.jpg'),
+(29, 29, 'Vàng', '#FFFF00', 'h.jpg'),
+(30, 30, 'Vàng', '#FFFF00', 'j.jpg'),
+(31, 31, 'Vàng', '#FFFF00', 'e.jpg'),
+(32, 32, 'Vàng', '#FFFF00', 'g.jpg'),
+(33, 33, 'Vàng', '#FFFF00', 'h.jpg'),
+(34, 34, 'Vàng', '#FFFF00', 'j.jpg'),
+(35, 35, 'Vàng', '#FFFF00', 'e.jpg'),
+(36, 36, 'Vàng', '#FFFF00', 'g.jpg'),
+(37, 37, 'Vàng', '#FFFF00', 'h.jpg'),
+(38, 38, 'Vàng', '#FFFF00', 'j.jpg'),
+(39, 39, 'Vàng', '#FFFF00', 's.png'),
+(40, 40, 'Vàng', '#FFFF00', 'b.jpg'),
+(41, 41, 'Vàng', '#FFFF00', 'c.jpg'),
+(42, 42, 'Vàng', '#FFFF00', 's.png'),
+(43, 43, 'Vàng', '#FFFF00', 'b.jpg'),
+(44, 44, 'Vàng', '#FFFF00', 'c.jpg'),
+(45, 45, 'Vàng', '#FFFF00', 's.png'),
+(46, 46, 'Vàng', '#FFFF00', 'b.jpg'),
+(47, 47, 'Vàng', '#FFFF00', 'c.jpg'),
+(48, 48, 'Vàng', '#FFFF00', 's.png'),
+(49, 49, 'Vàng', '#FFFF00', 'f.jpg'),
+(50, 50, 'Vàng', '#FFFF00', 'i.jpg'),
+(51, 51, 'Vàng', '#FFFF00', 'f.jpg'),
+(52, 52, 'Vàng', '#FFFF00', 'i.jpg'),
+(53, 53, 'Vàng', '#FFFF00', 'shop-cart.PNG'),
+(54, 54, 'Vàng', '#FFFF00', 'i.jpg'),
+(55, 55, 'Vàng', '#FFFF00', 'f.jpg'),
+(56, 56, 'Vàng', '#FFFF00', 'shop-cart.PNG'),
+(57, 57, 'Vàng', '#FFFF00', 'f.jpg'),
+(58, 58, 'Vàng', '#FFFF00', 'i.jpg'),
+(59, 59, 'Vàng', '#FFFF00', 'shop-cart.PNG'),
+(60, 60, 'Vàng', '#FFFF00', 'shop-cart.PNG');
+
+
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '15');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '16');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '17');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '18');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '19');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '20');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '21');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '22');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '23');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '24');
+UPDATE `shopping`.`color` SET `img` = 'shopping-cart-template.jpg' WHERE (`id` = '25');
+UPDATE `shopping`.`color` SET `img` = 'a.jpg' WHERE (`id` = '2');
+UPDATE `shopping`.`color` SET `img` = 'a.jpg' WHERE (`id` = '3');
+UPDATE `shopping`.`color` SET `img` = 'a.jpg' WHERE (`id` = '4');
+UPDATE `shopping`.`color` SET `img` = 'a.jpg' WHERE (`id` = '5');
+UPDATE `shopping`.`color` SET `img` = 'a.jpg' WHERE (`id` = '6');
+UPDATE `shopping`.`color` SET `img` = 'a.jpg' WHERE (`id` = '7');
+UPDATE `shopping`.`color` SET `img` = 'a.jpg' WHERE (`id` = '8');
+
+
+INSERT INTO `shopping`.`menu` (`id`, `name`) VALUES ('1', 'Trang chủ');
+INSERT INTO `shopping`.`menu` (`id`, `name`) VALUES ('2', 'Sản phẩm');
+INSERT INTO `shopping`.`menu` (`id`, `name`) VALUES ('3', 'So sánh');
+INSERT INTO `shopping`.`menu` (`id`, `name`) VALUES ('4', 'Giỏ hàng');
+INSERT INTO `shopping`.`menu` (`id`, `name`) VALUES ('5', 'Bài viết');
+INSERT INTO `shopping`.`menu` (`name`) VALUES ('Liên hệ');
+
+
+SELECT p.id AS id_product,p.category_id,p.name,p.new_product,p.price,p.sale,p.size,p.title,p.createddate,p.createdby,
+p.highlight,p.detail,c.code AS code_color,c.id AS id_color,c.img,c.name AS name_color
+ FROM product AS p inner join color AS c ON p.id = c.product_id group by p.id , c.product_id order by rand() limit 9;
+ 
+ SELECT 
+    p.id AS id_product,
+    p.category_id,
+    p.name,
+    p.new_product,
+    p.price,
+    p.sale,
+    p.size,
+    p.title,
+    p.createddate,
+    p.createdby,
+    p.highlight,
+    p.detail,
+    c.code AS code_color,
+    c.id AS id_color,
+    c.img,
+    c.name AS name_color  
+FROM 
+    product AS p 
+INNER JOIN 
+    color AS c ON p.id = c.product_id 
+GROUP BY 
+    p.id, 
+    p.category_id,
+    p.name,
+    p.new_product,
+    p.price,
+    p.sale,
+    p.size,
+    p.title,
+    p.createddate,
+    p.createdby,
+    p.highlight,
+    p.detail,
+    c.code,
+    c.id,
+    c.img,
+    c.name
+ORDER BY 
+    RAND() 
+LIMIT 9;
